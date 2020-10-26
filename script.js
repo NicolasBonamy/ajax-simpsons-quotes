@@ -17,3 +17,9 @@ function fetchSimpsonsJSON() {
   }
   
   fetchSimpsonsJSON();
+
+  const reloadPage = document.querySelector("body");
+  function reload() {
+      reload = location.reload();
+  }
+  reloadPage.addEventListener("click", reload, false);
